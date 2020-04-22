@@ -35,7 +35,7 @@ def over?(board)
 end
 
 def winner?(board)
-  # return first
+  # return character in first of winning "indexes"
   board(won?(board)[0])
 end
 
