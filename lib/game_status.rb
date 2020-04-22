@@ -64,7 +64,7 @@ def won?(board)
       break
     end
 
-    return 
+    return
   end
 end
 
