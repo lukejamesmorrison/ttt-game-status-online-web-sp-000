@@ -44,7 +44,7 @@ def won?(board)
 
     # If first position is empty
     if !position_taken?(board, combo[0])
-      continue
+      next
     end
 
     # If the cells match
