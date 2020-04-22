@@ -68,8 +68,6 @@ def won?(board)
     if first_is_valid && cells_match
       winning_combo = combo
       break
-    else
-      false
     end
   end
 end
