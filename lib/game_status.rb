@@ -42,9 +42,7 @@ def won?(board)
   if empty?(board)
     return false
   end
-
-
-
+  
   # Detect if game has been won
   WIN_COMBINATIONS.each do |combo|
 
