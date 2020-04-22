@@ -44,7 +44,7 @@ def won?(board)
 
   # Detect if game is draw
 
-  winning_combo = nil
+  winning_combo = []
 
 
   # Detect if game has been won
