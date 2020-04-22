@@ -61,7 +61,7 @@ def won?(board)
 
     if first_is_valid && cells_match
       winning_combo = combo
-      puts combo
+      puts winning_combo
       break
     end
 
