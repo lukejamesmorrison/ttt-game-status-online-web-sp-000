@@ -42,10 +42,7 @@ def won?(board)
     return false
   end
 
-  # Detect if game is draw
-
   winning_combo = []
-
 
   # Detect if game has been won
   WIN_COMBINATIONS.each do |combo|
