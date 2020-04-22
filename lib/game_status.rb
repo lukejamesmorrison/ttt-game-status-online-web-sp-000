@@ -67,6 +67,3 @@ def won?(board)
 
   return winning_combo != nil ? winning_combo : false
 end
-
-# board = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
-# puts won?(board);
