@@ -53,8 +53,6 @@ def won?(board)
     # If the cells match
     cells_match = board[cell_1] == board[cell_2] && board[cell_1] == board[cell_3]
 
-
-
     if first_is_valid && cells_match
       return combo
     else
