@@ -61,9 +61,10 @@ def won?(board)
 
     if first_is_valid && cells_match
       winning_combo = combo
+      puts combo
       break
     end
-    
+
     return winning_combo != nil ? winning_combo : false
   end
 end
