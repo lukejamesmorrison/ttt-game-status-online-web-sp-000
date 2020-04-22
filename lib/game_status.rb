@@ -34,9 +34,6 @@ def full?(board)
   board.select{|cell| cell == 'X' || cell == "O"}.length == 9
 end
 
-board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-puts won?(board);
-
 def won?(board)
 
   # Detect if board is empty
@@ -73,3 +70,6 @@ def won?(board)
     end
   end
 end
+
+board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+puts won?(board);
