@@ -66,7 +66,8 @@ def won?(board)
     first_is_valid = board[cell_1] == "X" || board[cell_1] == "O"
 
     if first_is_valid && cells_match
-      return combo
+      winning_combo = combo
+      break
     else
       false
     end
