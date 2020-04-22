@@ -31,6 +31,7 @@ def full?(board)
 end
 
 def over?(board)
+  won?(board) || draw?(board)
 
 def won?(board)
   # The winning combo
