@@ -68,5 +68,5 @@ def won?(board)
   end
 end
 
-board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+board = ["X", "X", "X", "O", "X", "X", "O", "X", "O"]
 puts won?(board);
