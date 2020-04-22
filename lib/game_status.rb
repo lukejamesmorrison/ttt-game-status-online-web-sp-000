@@ -24,6 +24,9 @@ def empty?(board)
   board.select{|cell| cell == ' '}.length == 9
 end
 
+def full?(board)
+end
+
 def won?(board)
 
   # Detect if board is empty
