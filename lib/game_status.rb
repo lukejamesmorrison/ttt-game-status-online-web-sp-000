@@ -64,7 +64,7 @@ def won?(board)
       break
     end
 
-    puts [''];
+    print [''];
     return winning_combo != nil ? winning_combo : false
   end
 end
