@@ -37,13 +37,14 @@ end
 def won?(board)
 
   winning_combo = []
+  
   # Detect if board is empty
   if empty?(board)
     # || draw?(board)
     return false
   end
 
-  
+
 
   # Detect if game has been won
   WIN_COMBINATIONS.each do |combo|
