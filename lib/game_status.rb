@@ -46,7 +46,7 @@ def won?(board)
   # Detect if game has been won
   WIN_COMBINATIONS.each do |combo|
 
-    cell_1 = combo[0], cell_2 = combo[1], cell_3 = combo[2]
+    cell_1 = combo[0]; cell_2 = combo[1]; cell_3 = combo[2]
 
     # If first position is empty, move to next combo immediately
     if !position_taken?(board, combo[0])
