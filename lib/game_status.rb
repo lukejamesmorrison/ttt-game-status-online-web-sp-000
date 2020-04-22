@@ -36,7 +36,7 @@ end
 
 def won?(board)
   # The winning combo
-  winning_combo = []
+  winning_combo = nil
 
   # Detect if board is empty
   if empty?(board)
@@ -63,6 +63,8 @@ def won?(board)
       winning_combo = combo
       break
     end
+
+    return 
   end
 end
 
