@@ -41,6 +41,11 @@ def won?(board)
     cell_1 = combo[0]
     cell_2 = combo[1]
     cell_3 = combo[2]
+
+    # If first position is empty
+    if !position_taken?(board, combo[0])
+      continue
+    end
     
     # If the cells match
     cells_match = board[cell_1] == board[cell_2] && board[cell_1] == board[cell_3]
