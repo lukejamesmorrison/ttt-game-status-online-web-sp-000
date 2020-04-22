@@ -35,7 +35,7 @@ def full?(board)
 end
 
 def won?(board)
-
+  # The winning combo
   winning_combo = []
 
   # Detect if board is empty
