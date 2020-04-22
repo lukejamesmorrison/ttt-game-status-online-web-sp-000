@@ -32,6 +32,7 @@ end
 
 def over?(board)
   won?(board) || draw?(board)
+end
 
 def won?(board)
   # The winning combo
