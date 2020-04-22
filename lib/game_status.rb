@@ -42,7 +42,7 @@ def won?(board)
     cell_2 = combo[1]
     cell_3 = combo[2]
 
-    # If first position is empty
+    # If first position is empty, move to next combo immediately
     if !position_taken?(board, combo[0])
       next
     end
