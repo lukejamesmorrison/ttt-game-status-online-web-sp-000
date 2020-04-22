@@ -35,7 +35,7 @@ def full?(board)
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
-puts full?(board);
+puts won?(board);
 
 def won?(board)
 
