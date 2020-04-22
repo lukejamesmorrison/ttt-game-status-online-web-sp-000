@@ -39,7 +39,7 @@ def won?(board)
   winning_combo = []
 
   # Detect if board is empty
-  if empty?(board) || draw?(board)
+  if empty?(board)
     return false
   end
 
