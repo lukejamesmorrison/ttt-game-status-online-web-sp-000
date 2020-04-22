@@ -36,7 +36,7 @@ end
 
 def winner(board)
   # return character in first of winning "indexes"
-  board(won?(board)[0])
+  board[won?(board)[0]]
 end
 
 def won?(board)
