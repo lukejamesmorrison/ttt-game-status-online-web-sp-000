@@ -16,8 +16,6 @@ WIN_COMBINATIONS = [
   [6,4,2]  # Bottom-Left cross
 ]
 
-# returns true if the board has not been won but is full, false if the board is not won and the board is not full, and false if the board is won.
-
 def draw?(board)
   full?(board) && !won?(board)
 end
