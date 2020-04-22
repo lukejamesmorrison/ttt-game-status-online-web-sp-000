@@ -44,6 +44,8 @@ def won?(board)
 
   # Detect if game is draw
 
+  winning_combo = nil
+
 
   # Detect if game has been won
   WIN_COMBINATIONS.each do |combo|
