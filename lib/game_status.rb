@@ -47,11 +47,13 @@ def won?(board)
       next
     end
 
+    # If first cell is X or O
+    first_is_valid = board[cell_1] == "X" || board[cell_1] == "O"
+
     # If the cells match
     cells_match = board[cell_1] == board[cell_2] && board[cell_1] == board[cell_3]
 
-    # If first cell is X or O
-    first_is_valid = board[cell_1] == "X" || board[cell_1] == "O"
+
 
     if first_is_valid && cells_match
       return combo
