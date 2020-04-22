@@ -34,7 +34,7 @@ def full?(board)
   board.select{|cell| cell == 'X' || cell == "O"}.length == 9
 end
 
-board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+board = [" ", "O", "X", "O", "X", "X", "O", "X", "O"]
 puts full?(board);
 
 def won?(board)
