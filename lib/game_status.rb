@@ -30,6 +30,8 @@ def full?(board)
   board.select{|cell| cell == 'X' || cell == "O"}.length == 9
 end
 
+def over?(board)
+
 def won?(board)
   # The winning combo
   winning_combo = nil
