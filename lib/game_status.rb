@@ -35,8 +35,13 @@ def over?(board)
 end
 
 def winner(board)
+  if won?(board)
+    board[won?(board)[0]]
+  else
+    nil
+  end
   # return character in first of winning "indexes"
-  board[won?(board)[0]]
+  
 end
 
 def won?(board)
