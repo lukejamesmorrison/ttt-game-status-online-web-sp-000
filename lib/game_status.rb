@@ -40,8 +40,6 @@ def winner(board)
   else
     nil
   end
-  # return character in first of winning "indexes"
-  
 end
 
 def won?(board)
